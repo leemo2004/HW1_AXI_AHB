@@ -1,1 +1,2 @@
-
+畫 AXI、AHB 的 Master 及 Slave wrapper 有限狀態機（FSM）。SIP 任選（多 Masters、多 Slaves，支援 Burst），例如 UART。
+畫 Message Sequence Chart：CPU(M)、Mem Control(S)、SIP(M+S，內有 DMA)，AHB、AXI 都要。
